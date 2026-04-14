@@ -7,3 +7,7 @@ library(ggplot2)
 ggplot(df, aes(x = longitude, y = latitude)) +
   geom_point(size = 0.5, aes(color = arrest_boro)) +
   theme_bw()
+
+ggplot(df, aes(x = longitude, y = latitude)) +
+  geom_point(size = 0.5, aes(color = arrest_boro)) +
+  theme_bw()
